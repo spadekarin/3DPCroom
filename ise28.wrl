@@ -1,0 +1,6038 @@
+#VRML V2.0 utf8
+#genten
+Transform{
+	scale 0.5 1 0.5
+	children[
+#Shape {
+#    appearance Appearance {
+#        material Material { }
+#    }
+#    geometry Box {
+#        size 1.0 1.0 1.0
+#    }
+#}
+
+#yuka
+Shape {
+    appearance Appearance {
+    	      texture ImageTexture{
+    	      		url"yuka.jpg"
+    	      }
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-17 0 -20,#ten0
+			17 0 -20,
+			17 0 15,
+			8 0 15,
+			8 0 20,
+			-17 0 20 #ten5
+	          ]
+	     }
+	     coordIndex[
+		5,4,3,2,1,0,-1
+	     ]
+     } 
+}
+
+
+#kabe hidari garasu
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.6835 0.9296 0.9296
+			#specularColor 0 0 0.2
+			transparency 0.2
+		}
+		texture ImageTexture{
+    	      		url"sora.jpg"
+    	      }
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-17 0 -20,#ten0
+			-17 3 -20,
+			-17 3 20,
+			-17 0 20 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+#kabe hidari garasu
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.6835 0.9296 0.9296
+			#specularColor 0 0 0.2
+			transparency 0.2
+		}
+		texture ImageTexture{
+    	      		url"sora.jpg"
+    	      }
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-16.99999 0 -20,#ten0
+			-16.99999 3 -20,
+			-16.99999 3 20,
+			-16.99999 0 20 
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+
+#kabe hidari white #########################################
+DEF KHW Shape {
+    appearance Appearance {
+    
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-16.99 0 -15,#ten0
+			-16.99 3 -15,
+			-16.99 3 -13,
+			-16.99 0 -13 
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+
+Transform{
+	translation 0 0 7
+	children[
+		USE KHW
+	]
+}
+
+Transform{
+	translation 0 0 14
+	children[
+		USE KHW
+	]
+}
+
+Transform{
+	translation 0 0 21
+	children[
+		USE KHW
+	]
+}
+
+Transform{
+	translation 0 0 28
+	children[
+		USE KHW
+	]
+}
+##############################################################
+
+#kabe mae white
+Shape {
+    appearance Appearance {
+    	
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-17 0 -20,#ten0
+			-17 3 -20,
+			17 3 -20,
+			17 0 -20 
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+
+#kabe migi garasu
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.6835 0.9296 0.9296
+			#specularColor 0 0 0.2
+			transparency 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			17 0 -20,#ten0
+			17 3 -20,
+			17 3 15,
+			17 0 15 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+#kabe migi garasu
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.6835 0.9296 0.9296
+			#specularColor 0 0 0.2
+			transparency 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			17 0 -20,#ten0
+			17 3 -20,
+			17 3 15,
+			17 0 15 
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+#kabe migi white
+Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			16.999 0 -20,#ten0
+			16.999 3 -20,
+			16.999 3 -17,
+			16.999 0 -17 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+
+
+#kabe migi white2
+Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			16.999 0 10.5,#ten0
+			16.999 3 10.5,
+			16.999 3 15,
+			16.999 0 15 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+
+#kabe ushiro white
+Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			8 0 20,#ten0
+			8 3 20,
+			-17 3 20,
+			-17 0 20 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+
+
+
+#heya no hekomi
+Transform{
+	translation 12.5 1.5 17.5
+	children[
+        	Shape {
+	            appearance Appearance {
+                            
+  	            }
+	            geometry Box {
+                            size 9.0 3 5.0
+ 	            }
+	        }
+	]
+}
+
+	
+#hasira ######################################################
+Transform{
+	translation -15.5 1.5 -7
+	children[
+        	DEF H Shape {
+	            appearance Appearance {  
+	                 material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+  	            }
+	            geometry Cylinder{
+                            height 3
+			    radius 1
+			    bottom TRUE
+			    top TRUE
+			    side TRUE
+ 	            }
+	        }
+	]
+}
+
+Transform{
+	translation -15.5 1.5 7
+	children[
+        	USE H
+	]
+}
+
+Transform{
+	translation 8 1.5 7
+	children[
+        	USE H
+	]
+}
+
+Transform{
+	translation 8 1.5 -19
+	children[
+		USE H
+	]
+}
+Transform{
+	translation -15.5 1.5 -19
+	children[
+		USE H
+	]
+}
+
+Transform{
+	translation 8 1.5 -7
+	children[
+		USE H
+	]
+}
+
+Transform{
+	translation -3 1.5 19
+	children[
+        	USE H
+	]
+}
+##################################################################
+
+#kabe migi black
+DEF KMB Transform{
+	scale 1 0.8 1
+	translation 0 0.3 0
+	children[
+		Shape {
+			appearance Appearance {
+				material Material{
+ 	       		diffuseColor 0 0 0
+				#specularColor 0 0 0
+				transparency 0.7
+			}
+    	}
+    	geometry IndexedFaceSet{
+    		     solid FALSE
+    	    	 coord Coordinate{
+	     	   		point[
+						16.998 0 -18.7,#ten0
+						16.998 3 -18.7,
+						16.998 3 -18.2,
+						16.998 0 -18.2 
+	          		]
+	     		}
+	    		 coordIndex[
+					3,2,1,0,-1
+	     		]
+    	 } 
+		}
+	]
+}
+
+
+Transform{
+	translation 0 0 32.2
+	children[
+		USE KMB
+	]
+}
+
+
+Transform{
+	translation 0 0 30
+	children[
+		USE KMB
+	]
+}
+
+
+Transform{
+	translation -7.5 0 0
+	children[
+		Transform{
+			translation 17 0 -20
+			rotation 0 1 0 1.57
+			children[
+				Transform{
+					translation -17 0 20
+					children [
+						USE KMB
+					]
+				}
+			]
+		}
+	]
+}
+
+#door maru
+DEF DM Transform{
+	scale 1 1 1
+	translation 16.997 6.3 12.95
+	rotation 0 0 1 1.57
+	children[
+		Transform{
+		translation -5 0 0
+			children[
+				Shape {
+				    appearance Appearance {
+				        material Material {
+				        	diffuseColor 0.6 0.6 0.6
+				        }
+				    }
+				    geometry Cylinder {
+				        height 0.2
+				        radius 0.15
+				        bottom TRUE
+				        top TRUE
+				        side TRUE
+				    }
+				}
+			]
+		}
+	]
+}
+
+Transform{
+	translation 0 0 -30.4
+	children[
+		USE DM
+	]
+}
+
+Transform{
+	translation -39.7 0 0
+	children[
+		Transform{
+			translation 17 0 -20
+			rotation 0 1 0 1.57
+			children[
+				Transform{
+					translation -17 0 20
+					children [
+						USE DM
+					]
+				}
+			]
+		}
+	]
+}
+
+#door totte
+DEF DT Transform{
+	scale 1 1 1
+	translation 16.997 6 13
+	rotation 0 0 1 1.57
+	children[
+		Transform{
+		translation -5 0 0
+			children[
+				Shape {
+				    appearance Appearance {
+				        material Material {
+				        	diffuseColor 0.6 0.6 0.6
+				        }
+				    }
+				    geometry Box {
+				        size 0.2 0.2 0.4
+				    }
+				}
+			]
+		}
+	]
+}
+
+Transform{
+	translation 0 0 -30.6
+	children[
+		USE DT
+	]
+}
+
+Transform{
+	translation -39.7 0 0
+	children[
+		Transform{
+			translation 17 0 -20
+			rotation 0 1 0 1.57
+			children[
+				Transform{
+					translation -17 0 20
+					children [
+						USE DT
+					]
+				}
+			]
+		}
+	]
+}
+#############################################
+
+#tenzyo
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.9999 0.9999 0.9999
+			transparency 0.7
+		}
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-17 3 -20,#ten0
+			-17 3 20,
+			17 3 20,
+			17 3 -20 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+
+#heya no kyokai
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedLineSet{
+    	     coord Coordinate{
+	     	   point[
+				-16.995 0 -19.995,#ten0
+				-16.995 0 -19.995,
+				16.995 0 -19.995,
+				16.995 3 -19.995,
+				16.995 0 12.595,
+				16.995 3 12.595,
+				16.995 0 14.995,
+				16.995 3 14.995,
+				
+				17.015 0 12.595,
+				17.015 3 12.595,
+				17.015 0 14.995,
+				17.015 3 14.995,
+				
+				
+				9.995 0 -19.995,
+				9.995 3 -19.995,
+				12.295 0 -19.995,
+				12.295 3 -19.995,
+				
+				9.995 0 -20.005,
+				9.995 3 -20.005,
+				12.295 0 -20.005,
+				12.295 3 -20.005,
+				
+				7.995 0 19.995,
+				7.995 3 19.995,
+				-17 0 20, 
+				-17 3 20
+	          ]
+	     }
+	     coordIndex[
+				0,1,-1,
+				2,3,-1,
+				4,5,-1,
+				6,7,-1,
+				8,9,-1,
+				10,11,-1,
+				12,13,-1,
+				14,15,-1,
+				
+				16,17,-1,
+				18,19,-1,
+				20,21,-1,
+				22,23,-1
+	     ]
+     } 
+}
+
+#################################################
+#kabe migi white
+Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			17.009 0 -20,#ten0
+			17.009 3 -20,
+			17.009 3 -17,
+			17.009 0 -17 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+
+#kabe migi white2
+Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			17.009 0 10.5,#ten0
+			17.009 3 10.5,
+			17.009 3 15,
+			17.009 0 15 
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+
+#kabe hidari white #####
+DEF KHW Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-17.009 0 -15,#ten0
+			-17.009 3 -15,
+			-17.009 3 -13,
+			-17.009 0 -13 
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+
+Transform{
+	translation 0 0 7
+	children[
+		USE KHW
+	]
+}
+
+Transform{
+	translation 0 0 14
+	children[
+		USE KHW
+	]
+}
+
+Transform{
+	translation 0 0 21
+	children[
+		USE KHW
+	]
+}
+
+Transform{
+	translation 0 0 28
+	children[
+		USE KHW
+	]
+}
+################################
+
+#tsukue
+Transform{
+	translation 0 0 -2
+	children[
+DEF TKE12 Transform{
+	translation 0 0 0
+	children[
+		DEF TKE6 Transform{
+			translation 0 0 0
+			children[
+				DEF TKE3 Transform{
+					translation 0 0 0
+					children[
+						DEF TKE Transform{
+							translation 5 0.7 0
+							children[
+################################################koko
+################################################
+Transform{
+	translation 0 0.041 0
+	children[
+Transform{
+	translation 0 0.02 0
+	children[
+		Shape {
+			appearance Appearance{
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 2.8 0.03 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance{
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.02 0
+	children[
+Transform{
+	translation 1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation -1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+#####################################################
+#pasokon
+Transform{
+	translation 0 -0.03 0
+	children[
+Transform{
+	translation 0 0 0.18
+	children[
+Transform{
+	rotation  0.75 0 0 2.7
+	translation 0.75 0.28 -0.35
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.98 0.29 0.03
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.75 0.2 -0.45
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+    		}
+		    geometry Box {
+		        size 0.2 0.32 0.05
+		    }
+		}
+	]
+}]}
+
+Transform{
+	translation 0 0 0.18
+	children[
+Transform{
+	rotation  0.75 0 0 2.7
+	translation -0.75 0.28 -0.35
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.98 0.29 0.03
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.75 0.2 -0.45
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+    		}
+		    geometry Box {
+		        size 0.2 0.32 0.05
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation 0.75 0.07 -0.25
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.5 0.02 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.75 0.07 -0.25
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.5 0.02 0.3
+		    }
+		}
+	]
+}
+########################################################
+#server
+Transform{
+	translation 0.094 0.2 -0.13
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.18 0.29 0.58
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.094 0.2 -0.13
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.18 0.29 0.58
+		    }
+		}
+	]
+}
+######################################################
+#keyboad
+Transform{
+	translation 0.75 0.07 0.15
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+		
+		    }
+		    geometry Box {
+		        size 0.8 0.02 0.26
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.75 0.07 0.15
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+		    }
+		    geometry Box {
+		        size 0.8 0.02 0.26
+		    }
+		}
+	]
+}
+]}
+
+#mouse
+]}
+#-----------------------------------------------------------
+#isu
+Transform{
+	translation 0.3 0 0
+	children[
+DEF ISU Transform{
+	scale 2 1 2
+	rotation 0 1 0 3.14
+	translation 0.3 -0.268 0.6
+	children[
+		#shita midori
+Transform{
+	scale 1 1 1
+	translation 0 0.033 0
+	children[
+Transform{
+	scale 0.9 0.9 0.9
+	translation 0 -0.01 0
+	children[
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.234375 0.6992187 0.4415062
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 0 -0.225,
+					0.2 0 -0.2,
+					0.225 0 -0.145,
+					0.145 0 0.225,
+					0.2 0 0.2,
+					0.225 0 0.145,
+					-0.145 0 -0.225,
+					-0.2 0 -0.2,
+					-0.225 0 -0.145,
+					-0.145 0 0.225,
+					-0.2 0 0.2,
+					-0.225 0 0.145,
+					
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}]}
+
+#ensui
+Transform{
+	rotation 1 0 0 3.14
+	translation 0 -0.11 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cone{
+		    	height 0.1
+		    	bottomRadius 0.2
+		    	bottom TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+]}
+
+
+
+
+
+
+Transform{
+	translation 0 -0.05 0
+	children[
+#ziku
+Transform{
+	translation 0 -0.17 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.03
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+#isu ashi
+DEF IA Transform{
+	rotation 1 0 0 1.1
+	translation 0 -0.27 -0.12
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	translation 0 -0.22 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.05
+		    	radius 0.05
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+
+#isu ashi maru
+DEF IAM Transform{
+	rotation 1 0 0 1.57
+	translation 0 -0.36 -0.23
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.034
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IAM
+	]
+}]}
+
+
+#######################################
+Transform{
+	scale 1 1 1
+	translation 0 0.07 0
+	children[
+Transform{
+	scale 0.8 0.8 0.8
+	rotation 1 0 0 1.2
+	translation 0 0.22 -0.20
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.234375 0.6992187 0.4415062
+				}
+		    }
+		    geometry IndexedFaceSet{
+		    	     coord Coordinate{
+			     	   point[
+							0.145 0 -0.225,
+							0.2 0 -0.2,
+							0.225 0 -0.145,
+							0.145 0 0.225,
+							0.2 0 0.2,
+							0.225 0 0.145,
+							-0.145 0 -0.225,
+							-0.2 0 -0.2,
+							-0.225 0 -0.145,
+							-0.145 0 0.225,
+							-0.2 0 0.2,
+							-0.225 0 0.145,
+							
+							0.145 -0.04 -0.225,
+							0.2 -0.04 -0.2,
+							0.225 -0.04 -0.145,
+							0.145 -0.04 0.225,
+							0.2 -0.04 0.2,
+							0.225 -0.04 0.145,
+							-0.145 -0.04 -0.225,
+							-0.2 -0.04 -0.2,
+							-0.225 -0.04 -0.145,
+							-0.145 -0.04 0.225,
+							-0.2 -0.04 0.2,
+							-0.225 -0.04 0.145,
+			          ]
+			     }
+			     coordIndex[
+						 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+						20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+						8,7,19,20,-1,
+						7,6,18,19,-1,
+						6,0,12,18,-1,
+						0,1,13,12,-1,
+						1,2,14,13,-1,
+						2,5,17,14,-1,
+						5,4,16,17,-1,
+						4,3,15,16,-1,
+						3,9,21,15,-1
+						9,10,22,21,-1,
+						10,11,23,22,-1,
+						11,8,20,23,-1
+			     ]
+			     solid FALSE
+		     } 
+		}
+		
+		
+		
+		
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+	]
+}
+
+
+#semotare glay
+Transform{
+	translation 0 0.05 -0.22
+	rotation 1 0 0 2.95
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.15 0.27 0.03
+		    }
+		}
+	]
+}]}
+
+
+	]
+}
+
+
+Transform{
+	translation -1.2 0 0
+	children[
+		USE ISU
+	]
+}]}
+##########################################################
+##########################################################
+							]
+						}
+						Transform{
+							translation -2.7 0 0
+							children[
+								USE TKE
+							]
+						}
+						Transform{
+							translation -5.4 0 0
+							children[
+								USE TKE
+							]
+						}
+					]
+				}
+
+
+				Transform{
+					translation -11.5 0 0
+					children[
+						USE TKE3
+					]
+				}
+			]
+		}
+
+		Transform{
+			translation 0 0 2.8
+			children[
+				USE TKE6
+			]
+		}
+	]
+}
+
+Transform{
+	translation 0 0 -5.6
+	children[
+		USE TKE12
+	]
+}
+
+Transform{
+	translation 0 0 -11.2
+	children[
+		USE TKE12
+	]
+}
+
+Transform{
+	translation 0 0 5.6
+	children[
+		USE TKE6
+	]
+}
+
+Transform{
+	translation 0 0 8.4
+	children[
+		USE TKE6
+	]
+}
+####
+Transform{
+	translation -2.7 0 11.2
+	children[
+		USE TKE
+	]
+}
+Transform{
+	translation -5.4 0 14
+	children[
+		USE TKE
+	]
+}
+
+
+Transform{
+	translation -5.4 0 11.2
+	children[
+		USE TKE
+	]
+}
+Transform{
+	translation -5.4 0 16.8
+	children[
+		USE TKE
+	]
+}
+Transform{
+	translation -11.5 0 14
+	children[
+		USE TKE3
+	]
+}
+Transform{
+	translation -11.5 0 16.8
+	children[
+		USE TKE3
+	]
+}
+Transform{
+	translation -11.5 0 11.2
+	children[
+		USE TKE3
+	]
+}
+
+
+]
+}]}
+
+
+
+
+
+
+
+
+
+
+#################################################
+
+
+
+
+Transform{
+	translation 0 0 -1.4
+	children[
+		Transform{
+	translation 1.2 0.7 7.4
+	children[
+Transform{
+	translation 0 0 0
+	scale 1 1 1
+	children[
+Transform{
+	translation 0 0.041 0
+	scale 0.5 1 0.5
+	children[
+Transform{
+	translation 0 0.02 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 2.8 0.03 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.02 0
+	children[
+Transform{
+	translation 1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation -1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+]}
+
+
+
+####################mac
+Transform{
+	translation 0.33 0.08 0
+	children[
+		Shape {
+		    appearance Appearance {
+		   		 material Material{
+    	       			diffuseColor 0.8 0.8 0.8
+				}
+		    }
+		    geometry Box {
+		        size 0.42 0.02 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.33 0.08 0
+	children[
+		Shape {
+		    appearance Appearance {
+		   		 material Material{
+    	       			diffuseColor 0.8 0.8 0.8
+				}
+		    }
+		    geometry Box {
+		        size 0.42 0.02 0.3
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 0 0.01
+	children[
+Transform{
+	translation 0.33 0.101 -0.02
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Cylinder{
+		    	height 0.001
+		    	radius 0.025
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.325 0.101 0.01
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box{
+		    	size 0.02 0.001 0.02
+		    }
+		}
+	]
+}]}
+
+Transform{
+	translation 0 0 0.01
+	children[
+Transform{
+	translation -0.33 0.101 -0.02
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Cylinder{
+		    	height 0.001
+		    	radius 0.025
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.335 0.101 0.01
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box{
+		    	size 0.02 0.001 0.02
+		    }
+		}
+	]
+}]}
+
+
+
+]}
+#------------------------------------------------isu
+
+
+
+
+
+
+
+
+DEF ISU Transform{
+	scale 1 1 1
+	rotation 0 1 0 3.14
+	translation 0.3 -0.268 0.3
+	children[
+		#shita midori
+Transform{
+	scale 1 1 1
+	translation 0 0.033 0
+	children[
+Transform{
+	scale 0.9 0.9 0.9
+	translation 0 -0.01 0
+	children[
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.953125 0.640625 0.375
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 0 -0.225,
+					0.2 0 -0.2,
+					0.225 0 -0.145,
+					0.145 0 0.225,
+					0.2 0 0.2,
+					0.225 0 0.145,
+					-0.145 0 -0.225,
+					-0.2 0 -0.2,
+					-0.225 0 -0.145,
+					-0.145 0 0.225,
+					-0.2 0 0.2,
+					-0.225 0 0.145,
+					
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}]}
+
+#ensui
+Transform{
+	rotation 1 0 0 3.14
+	translation 0 -0.11 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cone{
+		    	height 0.1
+		    	bottomRadius 0.2
+		    	bottom TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+]}
+
+
+
+
+
+
+Transform{
+	translation 0 -0.05 0
+	children[
+#ziku
+Transform{
+	translation 0 -0.17 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.03
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+#isu ashi
+DEF IA Transform{
+	rotation 1 0 0 1.1
+	translation 0 -0.27 -0.12
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	translation 0 -0.22 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.05
+		    	radius 0.05
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+
+#isu ashi maru
+DEF IAM Transform{
+	rotation 1 0 0 1.57
+	translation 0 -0.36 -0.23
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.034
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IAM
+	]
+}]}
+
+
+#######################################
+Transform{
+	scale 1 1 1
+	translation 0 0.07 0
+	children[
+Transform{
+	scale 0.8 0.8 0.8
+	rotation 1 0 0 1.2
+	translation 0 0.22 -0.20
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.953125 0.640625 0.375
+				}
+		    }
+		    geometry IndexedFaceSet{
+		    	     coord Coordinate{
+			     	   point[
+							0.145 0 -0.225,
+							0.2 0 -0.2,
+							0.225 0 -0.145,
+							0.145 0 0.225,
+							0.2 0 0.2,
+							0.225 0 0.145,
+							-0.145 0 -0.225,
+							-0.2 0 -0.2,
+							-0.225 0 -0.145,
+							-0.145 0 0.225,
+							-0.2 0 0.2,
+							-0.225 0 0.145,
+							
+							0.145 -0.04 -0.225,
+							0.2 -0.04 -0.2,
+							0.225 -0.04 -0.145,
+							0.145 -0.04 0.225,
+							0.2 -0.04 0.2,
+							0.225 -0.04 0.145,
+							-0.145 -0.04 -0.225,
+							-0.2 -0.04 -0.2,
+							-0.225 -0.04 -0.145,
+							-0.145 -0.04 0.225,
+							-0.2 -0.04 0.2,
+							-0.225 -0.04 0.145,
+			          ]
+			     }
+			     coordIndex[
+						 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+						20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+						8,7,19,20,-1,
+						7,6,18,19,-1,
+						6,0,12,18,-1,
+						0,1,13,12,-1,
+						1,2,14,13,-1,
+						2,5,17,14,-1,
+						5,4,16,17,-1,
+						4,3,15,16,-1,
+						3,9,21,15,-1
+						9,10,22,21,-1,
+						10,11,23,22,-1,
+						11,8,20,23,-1
+			     ]
+			     solid FALSE
+		     } 
+		}
+		
+		
+		
+		
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+	]
+}
+
+
+#semotare glay
+Transform{
+	translation 0 0.05 -0.22
+	rotation 1 0 0 2.95
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.15 0.27 0.03
+		    }
+		}
+	]
+}]}
+
+
+	]
+}
+
+
+Transform{
+	translation -0.6 0 0
+	children[
+		USE ISU
+	]
+}]}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transform{
+	translation 1.2 0.7 7.4
+	children[
+Transform{
+	translation 0 0 0
+	scale 1 1 1
+	children[
+Transform{
+	translation 0 0.041 0
+	scale 0.5 1 0.5
+	children[
+Transform{
+	translation 0 0.02 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 2.8 0.03 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.02 0
+	children[
+Transform{
+	translation 1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation -1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+]}
+
+
+
+####################mac
+Transform{
+	translation 0.33 0.08 0
+	children[
+		Shape {
+		    appearance Appearance {
+		   		 material Material{
+    	       			diffuseColor 0.8 0.8 0.8
+				}
+		    }
+		    geometry Box {
+		        size 0.42 0.02 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.33 0.08 0
+	children[
+		Shape {
+		    appearance Appearance {
+		   		 material Material{
+    	       			diffuseColor 0.8 0.8 0.8
+				}
+		    }
+		    geometry Box {
+		        size 0.42 0.02 0.3
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 0 0.01
+	children[
+Transform{
+	translation 0.33 0.101 -0.02
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Cylinder{
+		    	height 0.001
+		    	radius 0.025
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.325 0.101 0.01
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box{
+		    	size 0.02 0.001 0.02
+		    }
+		}
+	]
+}]}
+
+Transform{
+	translation 0 0 0.01
+	children[
+Transform{
+	translation -0.33 0.101 -0.02
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Cylinder{
+		    	height 0.001
+		    	radius 0.025
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.335 0.101 0.01
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box{
+		    	size 0.02 0.001 0.02
+		    }
+		}
+	]
+}]}
+
+
+
+]}
+#------------------------------------------------isu
+
+
+
+
+
+
+
+
+DEF ISU Transform{
+	scale 1 1 1
+	rotation 0 1 0 3.14
+	translation 0.3 -0.268 0.3
+	children[
+		#shita midori
+Transform{
+	scale 1 1 1
+	translation 0 0.033 0
+	children[
+Transform{
+	scale 0.9 0.9 0.9
+	translation 0 -0.01 0
+	children[
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.953125 0.640625 0.375
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 0 -0.225,
+					0.2 0 -0.2,
+					0.225 0 -0.145,
+					0.145 0 0.225,
+					0.2 0 0.2,
+					0.225 0 0.145,
+					-0.145 0 -0.225,
+					-0.2 0 -0.2,
+					-0.225 0 -0.145,
+					-0.145 0 0.225,
+					-0.2 0 0.2,
+					-0.225 0 0.145,
+					
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}]}
+
+#ensui
+Transform{
+	rotation 1 0 0 3.14
+	translation 0 -0.11 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cone{
+		    	height 0.1
+		    	bottomRadius 0.2
+		    	bottom TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+]}
+
+
+
+
+
+
+Transform{
+	translation 0 -0.05 0
+	children[
+#ziku
+Transform{
+	translation 0 -0.17 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.03
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+#isu ashi
+DEF IA Transform{
+	rotation 1 0 0 1.1
+	translation 0 -0.27 -0.12
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	translation 0 -0.22 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.05
+		    	radius 0.05
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+
+#isu ashi maru
+DEF IAM Transform{
+	rotation 1 0 0 1.57
+	translation 0 -0.36 -0.23
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.034
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IAM
+	]
+}]}
+
+
+#######################################
+Transform{
+	scale 1 1 1
+	translation 0 0.07 0
+	children[
+Transform{
+	scale 0.8 0.8 0.8
+	rotation 1 0 0 1.2
+	translation 0 0.22 -0.20
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.953125 0.640625 0.375
+				}
+		    }
+		    geometry IndexedFaceSet{
+		    	     coord Coordinate{
+			     	   point[
+							0.145 0 -0.225,
+							0.2 0 -0.2,
+							0.225 0 -0.145,
+							0.145 0 0.225,
+							0.2 0 0.2,
+							0.225 0 0.145,
+							-0.145 0 -0.225,
+							-0.2 0 -0.2,
+							-0.225 0 -0.145,
+							-0.145 0 0.225,
+							-0.2 0 0.2,
+							-0.225 0 0.145,
+							
+							0.145 -0.04 -0.225,
+							0.2 -0.04 -0.2,
+							0.225 -0.04 -0.145,
+							0.145 -0.04 0.225,
+							0.2 -0.04 0.2,
+							0.225 -0.04 0.145,
+							-0.145 -0.04 -0.225,
+							-0.2 -0.04 -0.2,
+							-0.225 -0.04 -0.145,
+							-0.145 -0.04 0.225,
+							-0.2 -0.04 0.2,
+							-0.225 -0.04 0.145,
+			          ]
+			     }
+			     coordIndex[
+						 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+						20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+						8,7,19,20,-1,
+						7,6,18,19,-1,
+						6,0,12,18,-1,
+						0,1,13,12,-1,
+						1,2,14,13,-1,
+						2,5,17,14,-1,
+						5,4,16,17,-1,
+						4,3,15,16,-1,
+						3,9,21,15,-1
+						9,10,22,21,-1,
+						10,11,23,22,-1,
+						11,8,20,23,-1
+			     ]
+			     solid FALSE
+		     } 
+		}
+		
+		
+		
+		
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+	]
+}
+
+
+#semotare glay
+Transform{
+	translation 0 0.05 -0.22
+	rotation 1 0 0 2.95
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.15 0.27 0.03
+		    }
+		}
+	]
+}]}
+
+
+	]
+}
+
+
+Transform{
+	translation -0.6 0 0
+	children[
+		USE ISU
+	]
+}]}
+
+
+
+
+
+
+
+Transform{
+	translation 1.35 0 -2.8
+	children[
+		Transform{
+	translation 1.2 0.7 7.4
+	children[
+Transform{
+	translation 0 0 0
+	scale 1 1 1
+	children[
+Transform{
+	translation 0 0.041 0
+	scale 0.5 1 0.5
+	children[
+Transform{
+	translation 0 0.02 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 2.8 0.03 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.02 0
+	children[
+Transform{
+	translation 1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation -1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.99999 0.99999 0.99999
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+]}
+
+
+
+####################mac
+Transform{
+	translation 0.33 0.08 0
+	children[
+		Shape {
+		    appearance Appearance {
+		   		 material Material{
+    	       			diffuseColor 0.8 0.8 0.8
+				}
+		    }
+		    geometry Box {
+		        size 0.42 0.02 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.33 0.08 0
+	children[
+		Shape {
+		    appearance Appearance {
+		   		 material Material{
+    	       			diffuseColor 0.8 0.8 0.8
+				}
+		    }
+		    geometry Box {
+		        size 0.42 0.02 0.3
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 0 0.01
+	children[
+Transform{
+	translation 0.33 0.101 -0.02
+	children[
+		Shape {
+		    appearance Appearance {
+		    }
+		    geometry Cylinder{
+		    	height 0.001
+		    	radius 0.025
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.325 0.101 0.01
+	children[
+		Shape {
+		    appearance Appearance {
+		    }
+		    geometry Box{
+		    	size 0.02 0.001 0.02
+		    }
+		}
+	]
+}]}
+
+Transform{
+	translation 0 0 0.01
+	children[
+Transform{
+	translation -0.33 0.101 -0.02
+	children[
+		Shape {
+		    appearance Appearance {
+		    }
+		    geometry Cylinder{
+		    	height 0.001
+		    	radius 0.025
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.335 0.101 0.01
+	children[
+		Shape {
+		    appearance Appearance {
+		    }
+		    geometry Box{
+		    	size 0.02 0.001 0.02
+		    }
+		}
+	]
+}]}
+
+
+
+]}
+#------------------------------------------------isu
+
+
+
+
+
+
+
+
+DEF ISU Transform{
+	scale 1 1 1
+	rotation 0 1 0 3.14
+	translation 0.3 -0.268 0.3
+	children[
+		#shita midori
+Transform{
+	scale 1 1 1
+	translation 0 0.033 0
+	children[
+Transform{
+	scale 0.9 0.9 0.9
+	translation 0 -0.01 0
+	children[
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.953125 0.640625 0.375
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 0 -0.225,
+					0.2 0 -0.2,
+					0.225 0 -0.145,
+					0.145 0 0.225,
+					0.2 0 0.2,
+					0.225 0 0.145,
+					-0.145 0 -0.225,
+					-0.2 0 -0.2,
+					-0.225 0 -0.145,
+					-0.145 0 0.225,
+					-0.2 0 0.2,
+					-0.225 0 0.145,
+					
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}]}
+
+#ensui
+Transform{
+	rotation 1 0 0 3.14
+	translation 0 -0.11 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cone{
+		    	height 0.1
+		    	bottomRadius 0.2
+		    	bottom TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+]}
+
+
+
+
+
+
+Transform{
+	translation 0 -0.05 0
+	children[
+#ziku
+Transform{
+	translation 0 -0.17 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.03
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+#isu ashi
+DEF IA Transform{
+	rotation 1 0 0 1.1
+	translation 0 -0.27 -0.12
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.27
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IA
+	]
+}
+
+Transform{
+	translation 0 -0.22 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.05
+		    	radius 0.05
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+
+#isu ashi maru
+DEF IAM Transform{
+	rotation 1 0 0 1.57
+	translation 0 -0.36 -0.23
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.034
+		    	radius 0.022
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 0 -0.27 0 1.256
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 2.512
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 3.768
+	children[
+		USE IAM
+	]
+}
+
+Transform{
+	rotation 0 -0.27 0 5.024
+	children[
+		USE IAM
+	]
+}]}
+
+
+#######################################
+Transform{
+	scale 1 1 1
+	translation 0 0.07 0
+	children[
+Transform{
+	scale 0.8 0.8 0.8
+	rotation 1 0 0 1.2
+	translation 0 0.22 -0.20
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.953125 0.640625 0.375
+				}
+		    }
+		    geometry IndexedFaceSet{
+		    	     coord Coordinate{
+			     	   point[
+							0.145 0 -0.225,
+							0.2 0 -0.2,
+							0.225 0 -0.145,
+							0.145 0 0.225,
+							0.2 0 0.2,
+							0.225 0 0.145,
+							-0.145 0 -0.225,
+							-0.2 0 -0.2,
+							-0.225 0 -0.145,
+							-0.145 0 0.225,
+							-0.2 0 0.2,
+							-0.225 0 0.145,
+							
+							0.145 -0.04 -0.225,
+							0.2 -0.04 -0.2,
+							0.225 -0.04 -0.145,
+							0.145 -0.04 0.225,
+							0.2 -0.04 0.2,
+							0.225 -0.04 0.145,
+							-0.145 -0.04 -0.225,
+							-0.2 -0.04 -0.2,
+							-0.225 -0.04 -0.145,
+							-0.145 -0.04 0.225,
+							-0.2 -0.04 0.2,
+							-0.225 -0.04 0.145,
+			          ]
+			     }
+			     coordIndex[
+						 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+						20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+						8,7,19,20,-1,
+						7,6,18,19,-1,
+						6,0,12,18,-1,
+						0,1,13,12,-1,
+						1,2,14,13,-1,
+						2,5,17,14,-1,
+						5,4,16,17,-1,
+						4,3,15,16,-1,
+						3,9,21,15,-1
+						9,10,22,21,-1,
+						10,11,23,22,-1,
+						11,8,20,23,-1
+			     ]
+			     solid FALSE
+		     } 
+		}
+		
+		
+		
+		
+#shita glay
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 0.5 0.5 0.5
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+					
+					0.145 -0.06 -0.225,
+					0.2 -0.06 -0.2,
+					0.225 -0.06 -0.145,
+					0.145 -0.06 0.225,
+					0.2 -0.06 0.2,
+					0.225 -0.06 0.145,
+					-0.145 -0.06 -0.225,
+					-0.2 -0.06 -0.2,
+					-0.225 -0.06 -0.145,
+					-0.145 -0.06 0.225,
+					-0.2 -0.06 0.2,
+					-0.225 -0.06 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+	]
+}
+
+
+#semotare glay
+Transform{
+	translation 0 0.05 -0.22
+	rotation 1 0 0 2.95
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.15 0.27 0.03
+		    }
+		}
+	]
+}]}
+
+
+	]
+}
+
+
+Transform{
+	translation -0.6 0 0
+	children[
+		USE ISU
+	]
+}]}
+	]
+}
+
+
+
+
+#########################################
+
+#tuketashi
+
+Transform{
+	scale 0.5 1 0.5
+	children[
+DEF HS Shape {
+    appearance Appearance {
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			-16.999 0 -20,
+			-16.999 0.3 -20,
+			-16.999 0.3 20,
+			-16.999 0 20 
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+
+Transform{
+	translation -0.005 0 0
+	children[
+		USE HS
+	]
+}
+
+Transform{
+	translation -0.005 2 0
+	scale 1 0.7 1
+	children[
+		USE HS
+	]
+}
+
+Transform{
+	translation 0 2 0
+	scale 1 0.7 1
+	children[
+		USE HS
+	]
+}
+
+
+
+
+
+
+Transform{
+	translation 34 2.8 0
+	scale 1 0.7 1
+	children[
+		USE HS
+	]
+}
+
+Transform{
+	translation 34 0 0
+	scale 1 0.7 1
+	children[
+		USE HS
+	]
+}
+
+Transform{
+	translation 33.997 2.8 0
+	scale 1 0.7 1
+	children[
+		USE HS
+	]
+}
+
+Transform{
+	translation 33.997 0 0
+	scale 1 0.7 1
+	children[
+		USE HS
+	]
+}
+]}
+
+
+
+#=============================================
+#white board
+Transform{
+	translation -1.5 2.5 -9.9
+	rotation 0 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.6 0.6 0.6
+				}
+		    }
+		    geometry Box {
+		        size 7.5 0.02 0.03
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.5 1.3 -9.9
+	rotation 0 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.6 0.6 0.6
+				}
+		    }
+		    geometry Box {
+		        size 7.5 0.02 0.09
+		    }
+		}
+	]
+}
+Transform{
+	translation -5.25 1.9 -9.9
+	rotation 0 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.6 0.6 0.6
+				}
+		    }
+		    geometry Box {
+		        size 0.02 1.2 0.03
+		    }
+		}
+	]
+}
+Transform{
+	translation 2.25 1.9 -9.9
+	rotation 0 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.6 0.6 0.6
+				}
+		    }
+		    geometry Box {
+		        size 0.02 1.2 0.03
+		    }
+		}
+	]
+}
+#-------------------------------------------
+#mae sclean
+Transform{
+	translation -1.7 1.89 -9.84
+	rotation 0 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+#		texture ImageTexture{
+#    	      		url"hoshi.jpg"
+#    	      }
+#	      textureTransform TextureTransform{
+#	      		       scale 1 10
+#	  }
+		    }
+		    geometry Box {
+		        size 3.5 2.2 0.02
+		    }
+		}
+	]
+}
+
+#mae sclean poligon
+Transform{
+	translation -3.4  0.79 -9.82
+	rotation 0 0 0 0
+	children[
+Shape {
+    appearance Appearance {
+    	      texture ImageTexture{
+    	      		url"hoshi.jpg"
+    	      }
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			0 0 0,#ten0
+			3.5 0 0,
+			3.5 2.2 0,
+			0 2.2 0,
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+}
+]
+}
+
+#############################################
+#display
+DEF DIS Transform{
+	translation 0.6 0 0
+	rotation 0 0 0 0
+	children[
+Transform{
+	translation 0 2.54 2.53
+	rotation 1 0 0 0.5
+	children[
+		Shape {
+		    appearance Appearance {
+		    	texture ImageTexture{
+    	      			url"hoshi.jpg"
+    	      		}
+		    }
+		 geometry IndexedFaceSet{
+    	    	  solid FALSE
+    	    	   coord Coordinate{
+	     	    point[
+			0.5 -0.3 0,#ten0
+			-0.5 -0.3 0,
+			-0.5 0.3 0,
+			0.5 0.3 0,
+	          ]
+	     }
+	     coordIndex[
+		3,2,1,0,-1
+	     ]
+     } 
+		    
+		}
+	]
+}
+Transform{
+	translation 0 2.55 2.5
+	rotation 1 0 0 0.5
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Box {
+		        size 1 0.6 0.05
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 2.96 2.4
+	rotation 0 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.06
+		    	radius 0.05
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 2.49 2.44
+	rotation 1 0 0 0.5
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.28 0.11 0.09
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 2.73 2.4
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.03 0.43 0.04
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation 0 0 2.6
+	rotation 0 0 0 0
+	children[
+		USE DIS
+		Transform{
+			translation -5.4 0 0
+			rotation 0 0 0 0
+			children[
+				USE DIS
+			]
+		}
+	]
+}
+
+Transform{
+	translation 0 0 -4
+	rotation 0 0 0 0
+	children[
+		USE DIS
+		Transform{
+			translation -5.4 0 0
+			rotation 0 0 0 0
+			children[
+				USE DIS
+			]
+		}
+	]
+}
+
+Transform{
+	translation 0 0 -7.4
+	rotation 0 0 0 0
+	children[
+		USE DIS
+		Transform{
+			translation -5.4 0 0
+			rotation 0 0 0 0
+			children[
+				USE DIS
+			]
+		}
+	]
+}
+
+Transform{
+	translation -5.4 0 0
+	rotation 0 0 0 0
+	children[
+		USE DIS
+	]
+}
+
+##############################################
+#mae projecter
+Transform{
+	translation -1.6 2.5 -3.5
+	children[
+Transform{
+	translation 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 1 1
+				}
+		    }
+		    geometry Box {
+		        size 0.5 0.2 0.8
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 0.1 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.4 0.18 0.7
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 0.03 -0.4
+	rotation 1 0 0 1.57
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.01
+		    	radius 0.11
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	translation -0.07 0 0.4
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.3 0.13 0.01
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.25 0 0.1
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.01 0.13 0.5
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.25 0 0.18
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.7 0.7 0.7
+				}
+		    }
+		    geometry Box {
+		        size 0.01 0.13 0.25
+		    }
+		}
+	]
+}
+
+
+Transform{
+	translation 0 0.18 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.9 0.9 0.9
+				}
+		    }
+		    geometry Box {
+		        size 0.2 0.15 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 0.52 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.9 0.9 0.9
+				}
+		    }
+		    geometry Box {
+		        size 0.2 0.05 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 0.3 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.9 0.9 0.9
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.42
+		    	radius 0.06
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+]}
+
+###########################################
+#ushiro projecter
+
+Transform{
+	translation -1.6 2.25 6.5
+	scale 0.8 0.65 0.8
+	children[
+DEF PRO Transform{
+	translation 0 0 0
+	rotation 0 1 0 4.71
+	children[
+Transform{
+	translation 0 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 1 1
+				}
+		    }
+		    geometry Box {
+		        size 0.5 0.2 0.8
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 0.1 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.4 0.18 0.7
+		    }
+		}
+	]
+}
+
+Transform{
+	translation -0.07 0 -0.4
+	rotation 1 0 0 1.57
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.01
+		    	radius 0.09
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+Transform{
+	translation -0.07 0 0.4
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.3 0.13 0.01
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.25 0 0.1
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.01 0.13 0.5
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.25 0 0.18
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.7 0.7 0.7
+				}
+		    }
+		    geometry Box {
+		        size 0.01 0.13 0.25
+		    }
+		}
+	]
+}
+
+
+]}
+
+
+
+
+
+
+#2 daime
+Transform{
+	translation 0 -0.5 0
+	children[
+		USE PRO
+	]
+}
+
+
+# # # # # # # # # # # # # # 
+Transform{
+	translation 0 -0.05 0
+	children[
+Transform{
+	translation 0 -0.22 0.38
+	children[
+		DEF WAKU1 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.1
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.22 -0.38
+	children[
+		USE WAKU1
+	]
+}
+
+Transform{
+	translation 0 0.3 -0.38
+	children[
+		USE WAKU1
+	]
+}
+Transform{
+	translation 0 0.3 0.38
+	children[
+		USE WAKU1
+	]
+}
+
+Transform{
+	translation 0 1.2 -0.38
+	children[
+		USE WAKU1
+	]
+}
+Transform{
+	translation 0 1.2 0.38
+	children[
+		USE WAKU1
+	]
+}
+
+
+Transform{
+	translation 0.5 -0.22 0
+	children[
+		DEF WAKU2 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.1 0.1 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 -0.22 0
+	children[
+		USE WAKU2
+	]
+}
+
+Transform{
+	translation 0.5 0.3 0
+	children[
+		USE WAKU2
+	]
+}
+Transform{
+	translation -0.5 0.3 0
+	children[
+		USE WAKU2
+	]
+}
+
+Transform{
+	translation 0.5 1.2 0
+	children[
+		USE WAKU2
+	]
+}
+Transform{
+	translation -0.5 1.2 0
+	children[
+		USE WAKU2
+	]
+}
+
+
+Transform{
+	translation 0.5 0.5 0.38
+	children[
+		DEF WAKU3 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.1
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 0.5 0.38
+	children[
+		USE WAKU3
+	]
+}
+
+Transform{
+	translation 0.5 0.5 -0.38
+	children[
+		USE WAKU3
+	]
+}
+Transform{
+	translation -0.5 0.5 -0.38
+	children[
+		USE WAKU3
+	]
+}
+]}
+]}
+
+
+
+###################################################
+#shiromarutsukue
+DEF SMT Transform{
+	translation 6.2 0.74 1.3
+	children[
+DEF MT Transform{
+	scale 2.25 1 3.96
+	rotation 0 1 0 6.28
+	translation 0 0 0
+	children[
+
+Transform{
+	rotation 1 0 0 3.14
+	children[
+Shape {
+    appearance Appearance {
+    	       material Material{
+	       		diffuseColor 1 1 1
+		}
+    }
+    geometry IndexedFaceSet{
+    	     coord Coordinate{
+	     	   point[
+					0.145 0 -0.225,
+					0.2 0 -0.2,
+					0.225 0 -0.145,
+					0.145 0 0.225,
+					0.2 0 0.2,
+					0.225 0 0.145,
+					-0.145 0 -0.225,
+					-0.2 0 -0.2,
+					-0.225 0 -0.145,
+					-0.145 0 0.225,
+					-0.2 0 0.2,
+					-0.225 0 0.145,
+					
+					0.145 -0.04 -0.225,
+					0.2 -0.04 -0.2,
+					0.225 -0.04 -0.145,
+					0.145 -0.04 0.225,
+					0.2 -0.04 0.2,
+					0.225 -0.04 0.145,
+					-0.145 -0.04 -0.225,
+					-0.2 -0.04 -0.2,
+					-0.225 -0.04 -0.145,
+					-0.145 -0.04 0.225,
+					-0.2 -0.04 0.2,
+					-0.225 -0.04 0.145,
+	          ]
+	     }
+	     coordIndex[
+				 8, 7, 6, 0, 1, 2, 5, 4, 3, 9,10,11, 8,-1
+				20,19,18,12,13,14,17,16,15,21,22,23,20,-1
+				8,7,19,20,-1,
+				7,6,18,19,-1,
+				6,0,12,18,-1,
+				0,1,13,12,-1,
+				1,2,14,13,-1,
+				2,5,17,14,-1,
+				5,4,16,17,-1,
+				4,3,15,16,-1,
+				3,9,21,15,-1
+				9,10,22,21,-1,
+				10,11,23,22,-1,
+				11,8,20,23,-1
+	     ]
+	     solid FALSE
+     } 
+}
+]}
+]}
+
+
+
+
+
+Transform{
+	rotation 1 0 0 1.57
+	translation 0.42 -0.7 0.73
+	children[
+		DEF MTM Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.5 0.5 0.5
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.04
+		    	radius 0.03
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 1 0 0 1.57
+	translation -0.42 -0.7 0.73
+	children[
+		USE MTM
+	]
+}
+Transform{
+	rotation 1 0 0 1.57
+	translation -0.42 -0.7 -0.73
+	children[
+		USE MTM
+	]
+}
+Transform{
+	translation 0.42 -0.7 -0.73
+	rotation 1 0 0 1.57
+	children[
+		USE MTM
+	]
+}
+
+#-------------------------------------------
+
+
+
+Transform{
+	rotation 1 0 0 0.1925
+	translation 0.42 -0.35 -0.66
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.7 0.7 0.7
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.7
+		    	radius 0.015
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 1 0 0 0.1925
+	translation -0.42 -0.35 -0.66
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.7 0.7 0.7
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.7
+		    	radius 0.015
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 1 0 0 6.0875
+	translation 0.42 -0.35 0.66
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.7 0.7 0.7
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.7
+		    	radius 0.015
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+Transform{
+	rotation 1 0 0 6.0875
+	translation -0.42 -0.35 0.66
+	children[
+		Shape {
+		    appearance Appearance {
+		    	       material Material{
+			       		diffuseColor 0.7 0.7 0.7
+				}
+		    }
+		    geometry Cylinder{
+		    	height 0.7
+		    	radius 0.015
+		    	bottom TRUE
+		    	top TRUE
+		    	side TRUE
+		    }
+		}
+	]
+}
+
+	]
+}
+
+
+Transform{
+	translation 0 0 -2.7
+	children[
+		USE SMT
+	]
+}
+
+Transform{
+	rotation 0 1 0  1.57
+	translation 5 0 9.7
+	children[
+		USE SMT
+	]
+}
+Transform{
+	rotation 0 1 0  1.57
+	translation 5 0 -0.5
+	children[
+		USE SMT
+	]
+}
+Transform{
+	rotation 0 1 0  1.57
+	translation 5 0 2
+	children[
+		USE SMT
+	]
+}
+
+
+################################################
+Transform{
+	translation 7.5 1.25 0
+	rotation 0 1 0 4.71
+	scale 0.45 0.45 0.45
+	children[
+DEF HONDANA Transform{
+	translation 0 0 0
+	rotation 0 0 1 4.71
+	children[
+Transform{
+	translation 0 0 0
+	rotation 1 0 0 3.14
+	children[
+Transform{
+	translation 0 -0.22 0.38
+	children[
+		DEF WAKU1 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.1
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.22 -0.38
+	children[
+		USE WAKU1
+	]
+}
+Transform{
+	translation 0 1.2 -0.38
+	children[
+		USE WAKU1
+	]
+}
+Transform{
+	translation 0 1.2 0.38
+	children[
+		USE WAKU1
+	]
+}
+
+
+Transform{
+	translation 0.5 -0.22 0
+	children[
+		DEF WAKU2 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 0.1 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 -0.22 0
+	children[
+		USE WAKU2
+	]
+}
+Transform{
+	translation 0.5 1.2 0
+	children[
+		USE WAKU2
+	]
+}
+Transform{
+	translation -0.5 1.2 0
+	children[
+		USE WAKU2
+	]
+}
+
+
+Transform{
+	translation 0.5 0.5 0.38
+	children[
+		DEF WAKU3 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.1
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 0.5 0.38
+	children[
+		USE WAKU3
+	]
+}
+
+Transform{
+	translation 0.5 0.5 -0.38
+	children[
+		USE WAKU3
+	]
+}
+Transform{
+	translation -0.5 0.5 -0.38
+	children[
+		USE WAKU3
+	]
+}
+##
+
+Transform{
+	translation 0 0.5 0.38
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 0.5 0.5
+				}
+		    }
+		    geometry Box {
+		        size 1 1.5 0.1
+		    }
+		}
+	]
+}
+
+##
+Transform{
+	translation 0.5 0.5 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 0.5 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 -0.22 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 1.20 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.76
+		    }
+		}
+	]
+}
+################hon
+Transform{
+	translation 0.1 1.1 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 1 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 1 0
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 0.9 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 1
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0.1 0.8 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 1 0
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 0.6 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 1
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 0.5 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 0 0
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 0.4 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 1 0
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.1 0.3 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 1
+				}
+		    }
+		    geometry Box {
+		        size 0.7 0.1 0.7
+		    }
+		}
+	]
+}
+]}
+]}
+
+
+
+
+
+
+
+DEF HONDANAB Transform{
+	translation 0 0 0
+	rotation 0 0 1 4.71
+	children[
+Transform{
+	translation 0 0 0
+	rotation 1 0 0 3.14
+	children[
+Transform{
+	translation 0 -0.22 0.38
+	children[
+		DEF WAKU1 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.1
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.22 -0.38
+	children[
+		USE WAKU1
+	]
+}
+Transform{
+	translation 0 1.2 -0.38
+	children[
+		USE WAKU1
+	]
+}
+Transform{
+	translation 0 1.2 0.38
+	children[
+		USE WAKU1
+	]
+}
+
+
+Transform{
+	translation 0.5 -0.22 0
+	children[
+		DEF WAKU2 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 0.1 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 -0.22 0
+	children[
+		USE WAKU2
+	]
+}
+Transform{
+	translation 0.5 1.2 0
+	children[
+		USE WAKU2
+	]
+}
+Transform{
+	translation -0.5 1.2 0
+	children[
+		USE WAKU2
+	]
+}
+
+
+Transform{
+	translation 0.5 0.5 0.38
+	children[
+		DEF WAKU3 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.1
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 0.5 0.38
+	children[
+		USE WAKU3
+	]
+}
+
+Transform{
+	translation 0.5 0.5 -0.38
+	children[
+		USE WAKU3
+	]
+}
+Transform{
+	translation -0.5 0.5 -0.38
+	children[
+		USE WAKU3
+	]
+}
+##
+
+Transform{
+	translation 0 0.5 0.38
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.59 0.88 0.59
+				}
+		    }
+		    geometry Box {
+		        size 1 1.5 0.1
+		    }
+		}
+	]
+}
+
+##
+Transform{
+	translation 0.5 0.5 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.5 0.5 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 0.1 1.5 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 -0.22 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.76
+		    }
+		}
+	]
+}
+Transform{
+	translation 0 1.20 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.8671875 0.71875 0.5273437
+				}
+		    }
+		    geometry Box {
+		        size 1.1 0.1 0.76
+		    }
+		}
+	]
+}
+
+]}
+]}
+
+
+###############
+###############
+Transform{
+	translation 0.8 -1.1 0
+	rotation 0 1 0 5.65
+	children[
+		USE HONDANA
+	]
+}
+Transform{
+	translation -1 -1.1 0
+	rotation 0 1 0 5.65
+	children[
+		USE HONDANA
+	]
+}
+Transform{
+	translation -0.5 -2.2 0.5
+	rotation 0 1 0 5.65
+	children[
+		USE HONDANAB
+	]
+}
+Transform{
+	translation 1.3 -2.2 0.5
+	rotation 0 1 0 5.65
+	children[
+		USE HONDANAB
+	]
+}
+
+
+]}
+
+
+
+#################################################
+#anime
+Transform{
+	rotation  0.75 0 0 2.9
+	scale 0.5 1 0.5
+	translation 0.175 1 -5.275
+	children[
+		Shape{
+			appearance Appearance{
+				material DEF Monolith1Facade Material{
+					diffuseColor 1 0 0
+				}
+			}
+			geometry Box { size 0.98 0.27 0.02 }
+		}
+	]
+}
+
+DEF Monolith1Touch TouchSensor{
+}
+
+DEF Monolith1Timer TimeSensor{
+	cycleInterval 2.0
+	loop TRUE
+	startTime 0.0
+	stopTime 0.1
+}
+
+ROUTE Monolith1Touch.touchTime TO Monolith1Timer.set_startTime
+ROUTE Monolith1Timer.fraction_changed TO Monolith1Facade.set_transparency
+
+
+
+############################################
+#anime2
+DEF Monolith Transform{
+	translation 8.0 1.5 7.0
+  children[
+     Shape {
+	appearance Appearance {
+		material DEF Monolith2Facade Material {
+			diffuseColor 0 0 1
+		}
+	}
+	geometry Sphere { radius 0.25 }
+     }
+
+
+  Transform{
+  translation 0 -0.85 0
+  rotation 0 0 1 3.14
+  children[
+        Shape {
+	appearance Appearance {
+		material  Material {
+			diffuseColor 0 0 1
+		}
+	}
+	geometry Cone { 
+		height 1.25
+		bottomRadius 0.2
+		bottom TRUE
+		side TRUE
+	 }
+     }
+  ]
+ }
+
+
+  ]
+}
+
+DEF Monolith2Touch TouchSensor {
+}
+
+DEF Monolith2Timer TimeSensor {
+	cycleInterval 8.0
+	loop TRUE
+	startTime 0.0
+	stopTime 0.1
+}
+
+DEF Monolith2Position  PositionInterpolator{
+  key[0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1]
+  keyValue[   
+		8.0 1.5 6.95,
+	    5.0 1.5 6.95,
+        5.0 1.5 -4.3,
+        0.1 1.5 -4.3,
+        0.1 1.5 -4.3,
+        0.1 1.5 -4.3,
+        5.0 1.5 -4.3,
+        5.0 1.5 6.95,
+        8.0 1.5 6.95,
+  ]
+}
+
+
+ROUTE Monolith2Touch.touchTime TO Monolith2Timer.set_startTime
+ROUTE Monolith2Timer.fraction_changed TO Monolith2Position.set_fraction
+ROUTE Monolith2Position.value_changed TO Monolith.set_translation
+
+
+
+##########################################
+##########################################
+##########################################
+
+#tana
+Transform{
+	translation -6.6 0.9 -9.6
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.957 0.867 0.7
+				}
+		    }
+		    geometry Box {
+		        size 1 1.78 0.55
+		    }
+		}
+	]
+}
+
+#tana poligon
+DEF TOME Transform{
+	translation -6.6 1.1 -9.3
+	children[
+Shape {
+    appearance Appearance {
+    	      material  Material {
+			diffuseColor 0.3 0.3 0.3
+			transparency 0.8
+		}
+    }
+    geometry IndexedFaceSet{
+    	     solid FALSE
+    	     coord Coordinate{
+	     	   point[
+			0.4 0.15 0,#ten0
+			0.4 -0.15  0,
+			-0.4 -0.15 0,
+			-0.4 0.15 0,
+	          ]
+	     }
+	     coordIndex[
+		0,1,2,3,-1
+	     ]
+     } 
+}
+]
+}
+
+Transform{
+	translation 0 0.42 0
+	children[
+		USE TOME
+		]
+}
+
+Transform{
+	translation 0 -0.42 0
+	children[
+		USE TOME
+		]
+}
+
+Transform{
+	translation 0 -0.84 0
+	children[
+		USE TOME
+		]
+}
+
+########################################################
+
+
+
+Transform{
+	translation 1 0.6 -8
+	scale 1 0.8 1
+	rotation 0 1 0 3.14
+	children[
+
+Transform{
+	scale 0.5 1 0.5
+	children[
+Transform{
+	translation 0 0.041 0
+	children[
+Transform{
+	translation 0 0.02 0
+	children[
+		Shape {
+			appearance Appearance{
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 2.8 0.03 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance{
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 -0.38 -0.3
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.7 0.6
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0 -0.02 0
+	children[
+Transform{
+	translation 1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation -1.31 -0.7 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.04 1.2
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation -1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+Transform{
+	translation 1.31 0 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    material Material{
+	     				diffuseColor 0.97656 0.9375 0.8984
+					}  
+		    }
+		    geometry Box {
+		        size 0.08 0.07 1.2
+		    }
+		}
+	]
+}
+#####################################################
+#pasokon
+Transform{
+	translation 0 -0.03 0
+	children[
+Transform{
+	translation 0 0 0.18
+	children[
+Transform{
+	rotation  0.75 0 0 2.7
+	translation -0.75 0.28 -0.35
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.98 0.29 0.03
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0.75 0.2 -0.45
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+    		}
+		    geometry Box {
+		        size 0.2 0.32 0.05
+		    }
+		}
+	]
+}]}
+
+Transform{
+	translation 0 0 0.18
+	children[
+
+Transform{
+	translation -0.75 0.2 -0.45
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+    		}
+		    geometry Box {
+		        size 0.2 0.32 0.05
+		    }
+		}
+	]
+}]}
+
+
+Transform{
+	translation 0.75 0.07 -0.25
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.5 0.02 0.3
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.75 0.07 -0.25
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+		    }
+		    geometry Box {
+		        size 0.5 0.02 0.3
+		    }
+		}
+	]
+}
+########################################################
+#server
+Transform{
+	translation 0.094 0.2 -0.13
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.18 0.29 0.58
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.094 0.2 -0.13
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.18 0.29 0.58
+		    }
+		}
+	]
+}
+######################################################
+#keyboad
+Transform{
+	translation 0.75 0.07 0.15
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+		
+		    }
+		    geometry Box {
+		        size 0.8 0.02 0.26
+		    }
+		}
+	]
+}
+Transform{
+	translation -0.75 0.07 0.15
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+		    }
+		    geometry Box {
+		        size 0.8 0.02 0.26
+		    }
+		}
+	]
+}
+]}
+
+#mouse
+]}
+]}
+
+
+
+
+
+
+
+
+
+##################################################################
+#################################################################
+
+
+
+Transform{
+	translation 0.4 1.31 0
+	scale 1 1.4 1
+	children[
+Transform{
+	translation 0 -1 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 1 1
+			
+				}
+		    }
+		    geometry Box {
+		        size 1 0.88 0.7
+		    }
+		}
+	]
+}
+]}
+
+
+
+########################################################
+##########################################################
+
+
+
+
+
+Transform{
+	scale 0.5 1 0.5
+	translation 0 0.5 0
+	children[
+
+Transform{
+	rotation  0.75 0 0 2.7
+	translation 0.75 0.28 -0.35
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.98 0.29 0.03
+		    }
+		}
+	]
+}
+Transform{
+	translation 0.75 0.2 -0.45
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.4 0.4 0.4
+				}
+    		}
+		    geometry Box {
+		        size 0.2 0.32 0.05
+		    }
+		}
+	]
+}
+
+
+Transform{
+	translation 0  0.2 -0.1
+	children[
+		Shape {
+		    appearance Appearance {
+    	       material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+    		}
+		    geometry Box {
+		        size 0.18 0.29 0.58
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 0.8 0.05 0
+	children[
+		Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.01 0.01 0.01
+				}
+		
+		    }
+		    geometry Box {
+		        size 0.8 0.02 0.26
+		    }
+		}
+	]
+}
+
+
+]}
+
+]}
+
+##########################################################
+Transform{
+	translation 8 2 -7
+	rotation 0 1 0 1.57
+	children[
+		DEF FUZOKU1 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0 0 0
+				}
+		
+		    }
+		    geometry Box {
+		        size 1.2 0.7 0.15
+		    }
+		}
+	]
+}
+
+
+Transform{
+	translation 8 1.2 -7
+	rotation 0 1 0 1.57
+	children[
+		USE FUZOKU1
+		]
+}
+
+
+Transform{
+	translation 8 1.2 -5
+	rotation 0 1 0 1.57
+	children[
+		USE FUZOKU1
+		]
+}
+
+
+
+Transform{
+	translation 2.7 1.2 9
+	children[
+		USE FUZOKU1
+		]
+}
+
+
+
+
+Transform{
+	translation 8 0.35 -5
+	rotation 0 1 0 1.57
+	children[
+		 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 1 1
+				}
+		
+		    }
+		    geometry Box {
+		        size 1.5 0.7 0.7
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 8 0.35 -7
+	rotation 0 1 0 1.57
+	children[
+		 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.5 0.5 0.5
+				}
+		
+		    }
+		    geometry Box {
+		        size 0.7 0.7 0.4
+		    }
+		}
+	]
+}
+Transform{
+	translation 8 0.5 -7
+	rotation 0 1 0 1.57
+	children[
+		 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 0.5 0.5 0.5
+				}
+		
+		    }
+		    geometry Box {
+		        size 0.7 0.7 0.4
+		    }
+		}
+	]
+}
+
+Transform{
+	translation 2.7 0.35 9
+	
+	children[
+		 Shape {
+		    appearance Appearance {
+		    	material Material{
+    	       		diffuseColor 1 1 1
+				}
+		
+		    }
+		    geometry Box {
+		        size 1.5 0.7 0.7
+		    }
+		}
+	]
+}
